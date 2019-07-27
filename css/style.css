@@ -1,0 +1,213 @@
+@font-face {
+    font-family: mr_FranklinGothicG;
+    src: url(../font/17302.otf);
+  }
+html{
+  scroll-behavior: smooth;
+}
+body{
+  width: 100%;
+  font-family: "mr_FranklinGothicG";
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+header{
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 0 10px 0;
+}
+.navigation{
+  display: flex;
+  align-items: flex-end;
+}
+.navigationList li{
+  display: inline;
+  padding: 0 12px 0 12px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.navigationList a{
+  text-decoration: none;
+  color: DodgerBlue;
+}
+.navigationList a:hover{
+  color: orange;
+}
+.navigationList a:active{
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------- */
+section{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about{
+  background-color: #c4fffd;
+}
+.about p{
+  font-size: 30px;
+  text-align: justify;
+  margin: 0 20px 20px 20px;
+}
+.about span{
+  color: blue;
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+}
+.search>input:first-child,
+.search>input:nth-child(2){
+  font-size: 20px;
+  padding: 5px;
+  width: 90%;
+  font-family: "mr_FranklinGothicG";
+}
+.search>input:nth-child(2){
+  width: 8.85%;
+}
+.findFriend{
+  background-color: SkyBlue;
+}
+.progectPeople{
+  background-color: khaki;
+}
+.progectPeople_text,
+.findFriend_text{
+  width: 50%;
+}
+.progectPeople_text p,
+.findFriend_text p{
+  padding: 10px;
+  line-height: 1.3;
+  text-align: justify;
+  font-size: 20px;
+}
+.progectPeople_photo,
+.findFriend_photo{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo{
+  background-color: #dd89e8;
+  padding: 0 0 15px 0;
+}
+.photoimg{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photoimg img{
+  margin: 20px 0 20px 0;
+}
+.video{
+  background-color: LightGreen;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- */
+.containerContacts{
+  display: flex;
+  justify-content: space-between;
+  background-color: #dba7c9;
+  padding: 20px 0 20px 0;
+}
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+  width: 100%;
+}
+.contacts>div{
+  width: 20%;
+  border: solid 1px black;
+  padding: 25px;
+}
+.width{
+  margin: 10px;
+  width: 100%;
+  text-align: center;
+}
+.contacts h3{
+  font-size: 30px;
+}
+.contacts .address,
+.contacts .phone,
+.contacts .mail,
+.contacts .schedule{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.map{
+  display: flex;
+  width: 55%;
+  margin: 0 0 0 20px;
+}
+.map>iframe{
+  height: 500px;
+  width: 100%;
+}
+.regForm{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40%;
+  background-color: white;
+  margin: 0 20px 0 0;
+}
+.regForm>input{
+  font-family: "mr_FranklinGothicG";
+  font-size: 20px;
+  height: 50px;
+  width: 45%;
+  margin: 20px 0 0 0;
+}
+.regForm>h3{
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+.footer{
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
