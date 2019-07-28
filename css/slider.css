@@ -26,6 +26,7 @@
 }
 .sliderItem>div:first-child{
     width: 58.31%;
+
 }
 .sliderItem>div:nth-child(2){
     width: 33.32%;
@@ -35,6 +36,7 @@
     max-height: 90%;
     width: auto;
     height: auto;
+    padding: .2em;
 
 }
 .flexCenter{
@@ -64,6 +66,7 @@
 .h2FindFriend{
     position: absolute;
     top: .3em;
+    z-index: 99;
     /*left: 43%;*/
 }
 
