@@ -1,0 +1,69 @@
+.row{
+    display: flex;
+}
+.findFriend{
+    /*background: #9febeb;*/
+    /*height: calc(100vh - 14em);*/
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 99.96%;
+    height: 99.96%;
+    display: flex;
+    transition: transform 0.9s ease;
+}
+.sliderItem{
+    width: 99.96%;
+    height: 99.96%;
+    padding: 8em 7em 4em 4em;
+    justify-content: space-evenly;
+    font-size: 1.8em;
+    /*border: 1px solid black;*/
+    flex: 0 0 100%;
+
+}
+.sliderItem>div:first-child{
+    width: 58.31%;
+}
+.sliderItem>div:nth-child(2){
+    width: 33.32%;
+}
+.sliderItem img{
+    max-width: 83.3%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.leftButton, .rightButton{
+    width: 8.33%;
+    height: 99.96%;
+    position: absolute;
+    background: transparent;
+    top:0;
+}
+.rightButton{
+    left: 91%;
+}
+.rightButton img, .leftButton img{
+    width: 49.98%;
+
+}
+.transLeft{
+    transform: rotate(180deg);
+}
+.h2FindFriend{
+    position: absolute;
+    top: .3em;
+    /*left: 43%;*/
+}
+
