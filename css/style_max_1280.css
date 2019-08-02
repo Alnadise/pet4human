@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1280px){
+  .logo{
+    padding: 0 0 0 0px;
+  }
+  .logo img{
+    padding: 0 0 0 0px;
+  }
+  h1{
+    font-size: 100px;
+  }
+  header .legs{
+    left: 55%;
+  }
+  header .leg{
+    display: none;
+  }
+  .navigationList li{
+    padding: 0 12px 0 12px;
+  }
+  .navigationMobile{
+    display: none;
+  }
+  .about img:nth-child(3),
+  .about img:nth-child(4){
+    display: none;
+  }
+  .about img:nth-child(2){
+    display: block;
+  }
+}

@@ -1,0 +1,87 @@
+@media only screen and (max-width: 400px){
+  .logo{
+    padding: 0 0 0 0px;
+  }
+  .logo img{
+    padding: 0 0 0 0px;
+    width: 80px;
+  }
+  .title h1{
+    font-size: 45px;
+    text-align: center;
+  }
+  header{
+    height: 120px;
+  }
+  header .leg{
+    display: none;
+  }
+  header .legs{
+    display: none;
+    left: 40%;
+  }
+  .navigation{
+    display: none;
+  }
+  .navigationMobile{
+    padding-left: 0 20px 0 0;
+    display: block;
+    width: 48%;
+  }
+  .hide{
+    display: none;
+  }
+  .menu{
+    width: 100%;
+  }
+  .logo_menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .logo_menu img{
+    margin: 70px 20px 0 0;
+    height: 60px;
+    width: 60px;
+  }
+  ul{
+    padding: 0;
+  }
+  li{
+    display: block;
+    color: DodgerBlue;
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    font-size: 25px;
+  }
+  .navigationMobile a{
+    text-decoration: none;
+  }
+  .elements_menu{
+    box-shadow: -10px 20px 20px 10px #deb887;
+    display: block;
+    position: relative;
+    top: -300px;
+    background-color: #deb887;
+    transition: .75s;
+  }
+  #menu_logo:checked~.elements_menu{
+    display: block;
+    top: 30px;
+    right: 0px;
+  }
+  .about img{
+    height: 700px;
+  }
+  .about img:nth-child(4){
+    display: block;
+  }
+  .about img:nth-child(2),
+  .about img:nth-child(3){
+    display: none;
+  }
+  .memberPhoto,
+  .videoAboutAnimal{
+    width: 80%;
+    margin: 10px;
+  }
+}

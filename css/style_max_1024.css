@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1024px){
+  .logo{
+    padding: 0 0 0 0px;
+  }
+  .logo img{
+    padding: 0 0 0 0px;
+  }
+  h1{
+    z-index: 2;
+    font-size: 80px;
+  }
+  header .legs{
+    display: none;
+  }
+  header .leg{
+    display: block;
+    z-index: 1;
+    width: 130px;
+    position: absolute;
+    left: 65%;
+  }
+  .navigation{
+    text-align: right;
+    display: flex;
+    align-items: center;
+  }
+  .navigationList li{
+    padding: 0 12px 0 12px;
+  }
+  .navigationList li{
+    display: block;
+    margin: 20px 20px 0 0;
+  }
+  .navigationMobile{
+    display: none;
+  }
+  .about img:nth-child(3),
+  .about img:nth-child(4){
+    display: none;
+  }
+  .about img:nth-child(2){
+    display: block;
+  }
+}

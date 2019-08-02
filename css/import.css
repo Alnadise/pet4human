@@ -1,3 +1,12 @@
 @import url('reset.css');
 @import url('style.css');
-@import url('slider.css');
+@import url('style_max_1920.css');
+@import url('style_max_1500.css');
+@import url('style_max_1280.css');
+@import url('style_max_1024.css');
+@import url('style_max_960.css');
+@import url('style_max_900.css');
+@import url('style_max_768.css');
+@import url('style_max_600.css');
+@import url('style_max_500.css');
+@import url('style_max_400.css');
